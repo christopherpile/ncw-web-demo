@@ -6,7 +6,7 @@ export default defineConfig({
   base: "/ncw-web-demo/",
   plugins: [react(), splitVendorChunkPlugin()],
   server: {
-    open: true,
+    open: false,
     host: 'localhost',
     hmr: true,
   },
